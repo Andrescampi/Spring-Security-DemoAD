@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecurityDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/SecurityDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecurityDemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SecurityDemo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecurityDemo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SecurityDemo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Security-Demo.iml" filepath="$PROJECT_DIR$/.idea/Spring-Security-Demo.iml" />
     </modules>
   </component>
