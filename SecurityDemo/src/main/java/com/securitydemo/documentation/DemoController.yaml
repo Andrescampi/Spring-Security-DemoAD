@@ -1,0 +1,62 @@
+  openapi: 3.0.0
+  info:
+    title: Security Demo API
+    version: 1.0.0
+    description: API for demonstrating Spring Security role-based access control.
+  servers:
+    - url: /api
+  paths:
+    /user-endpoint:
+      get:
+        summary: Access user-specific resource
+        description: Requires USER role.
+        security:
+          - bearerAuth: []
+        responses:
+          '200':
+            description: Successful response for user.
+            content:
+              text/plain:
+                schema:
+                  type: string
+                  example: "Hello User! You have USER role access."
+          '403':
+            description: Forbidden - Insufficient privileges.
+    /admin-endpoint:
+      get:
+        summary: Access admin-specific resource
+        description: Requires ADMIN role.
+        security:
+          - bearerAuth: []
+        responses:
+          '200':
+            description: Successful response for admin.
+            content:
+              text/plain:
+                schema:
+                  type: string
+                  example: "Hello Admin! You have ADMIN role access."
+          '403':
+            description: Forbidden - Insufficient privileges.
+    /common-endpoint:
+      get:
+        summary: Access common resource
+        description: Requires either USER or ADMIN role.
+        security:
+          - bearerAuth: []
+        responses:
+          '200':
+            description: Successful response.
+            content:
+              text/plain:
+                schema:
+                  type: string
+                  example: "Hello! Both USER and ADMIN roles can access this endpoint."
+          '403':
+            description: Forbidden - Insufficient privileges.
+  components:
+    securitySchemes:
+      bearerAuth:
+        type: http
+        scheme: bearer
+        bearerFormat: JWT

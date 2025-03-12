@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46da91fb-2d38-43bc-ae35-e288e4420d85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/SecurityDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/SecurityDemo.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/documentation/AuthController.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/documentation/DemoController.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SecurityDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SecurityDemo.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityDemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/securitydemo/controller/DemoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,31 +69,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SecurityDemoApplication.executor": "Run",
-    "Gradle.SecurityDemo [buildDependents].executor": "Run",
-    "Gradle.SecurityDemo [build].executor": "Run",
-    "Gradle.SecurityDemo [dependencies].executor": "Run",
-    "Gradle.SecurityDemo [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SecurityDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build SecurityDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityDemo [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityDemo [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityDemo [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityDemo [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SecurityDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.SecurityDemo [build]">
+}</component>
+  <component name="RunManager" selected="Spring Boot.SecurityDemoApplication">
     <configuration name="SecurityDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.securitydemo.SecurityDemoApplication" />
       <module name="Spring-Security-Demo" />
@@ -103,28 +112,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="SecurityDemo [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/SecurityDemo" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildDependents" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="SecurityDemo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -192,13 +179,26 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="SecurityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SecurityDemo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.securitydemo.SecurityDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.securitydemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SecurityDemoApplication" />
         <item itemvalue="Gradle.SecurityDemo [build]" />
         <item itemvalue="Gradle.SecurityDemo [test]" />
         <item itemvalue="Gradle.SecurityDemo [dependencies]" />
         <item itemvalue="Application.SecurityDemoApplication" />
-        <item itemvalue="Gradle.SecurityDemo [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +220,8 @@
       <updated>1741017817062</updated>
       <workItem from="1741017820895" duration="89000" />
       <workItem from="1741663210040" duration="925000" />
+      <workItem from="1741664149700" duration="3494000" />
+      <workItem from="1741791127880" duration="3511000" />
     </task>
     <servers />
   </component>
